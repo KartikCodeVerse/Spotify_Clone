@@ -1,0 +1,27 @@
+.songCard_Container {
+  width: 250px;
+  height: 300px;
+  color: white;
+  background-color: rgb(60, 55, 55);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.songCard_Container:hover {
+  background-color: grey;
+  box-shadow: 4px 4px 8px 2px rgba(0, 0, 0, 0.7),
+    -4px -4px 8px 2px rgba(169, 169, 169, 0.7);
+}
+
+.song_cover {
+  width: 80%;
+  height: 75%;
+}
+
+.songCard_Container img {
+  width: 100%;
+  height: 100%;
+}

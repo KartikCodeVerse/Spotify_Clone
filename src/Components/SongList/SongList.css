@@ -1,0 +1,6 @@
+.Songlist_Container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+}

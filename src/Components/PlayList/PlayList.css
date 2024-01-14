@@ -1,0 +1,45 @@
+.Container {
+  min-height: 70vh;
+  background-color: black;
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  display: flex;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 25px;
+  width: 70vw;
+  border-radius: 12px;
+  padding: 24px;
+  background-image: url("../../assets/bg7.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#audio {
+  width: 80vw;
+  cursor: pointer;
+}
+
+.icons {
+  margin-top: 14px;
+}
+
+.icons i {
+  cursor: pointer;
+}
+
+.songitemcontainer {
+  margin-top: 74px;
+}
+@media screen and (max-width: 500px) {
+  .Container {
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .Container {
+    width: 100vw;
+  }
+}
