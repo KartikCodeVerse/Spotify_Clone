@@ -29,7 +29,8 @@ Welcome to my awesome project! Here's a screenshot:
 
 - Resonsiveness
 ![responsive1](https://github.com/KartikCodeVerse/Spotify_Clone/assets/128214174/38f922ed-62f0-4bcd-8edb-23316567fa2d)
----
+
+
 ![responsive2](https://github.com/KartikCodeVerse/Spotify_Clone/assets/128214174/9f1825db-2509-4398-b65f-ee7ab610d4be)
 
 
