@@ -18,15 +18,15 @@ Welcome to the Spotify Clone repository - a cutting-edge music streaming applica
 
 Welcome to my awesome project! Here's a screenshot:
 
-**Home Page
+- **Home Page
 
 ![HomePage](https://github.com/KartikCodeVerse/Spotify_Clone/assets/128214174/9da79eeb-ce0d-473d-884e-00260aacddb0)
 
-**Songs Page
+- **Songs Page
 
 ![SongListPage](https://github.com/KartikCodeVerse/Spotify_Clone/assets/128214174/2bba1301-57b2-48fb-a66a-13c07e56464e)
 
-**Full Controll Of Songs
+- **Full Controll Of Songs
 
 ![PlayingSong](https://github.com/KartikCodeVerse/Spotify_Clone/assets/128214174/678d4bc6-1ef1-4df3-becd-fa87648b3508)
 
