@@ -89,10 +89,6 @@ const PlayBar = ({ songlist }) => {
 
   return (
     <div className="Bottom">
-      <div className="timmer">
-        {secondsToMinutes(Math.floor(currentTime))}/
-        {selecteSong ? selecteSong.duration : "00.00"}
-      </div>
       <input
         type="range"
         value={currentTime}
@@ -129,17 +125,24 @@ const PlayBar = ({ songlist }) => {
       <div className="songinfo">
         {selecteSong.title} - {selecteSong.singer}
       </div>
-      <div className="vloume_contr">
-        <HiOutlineSpeakerWave  size={"30px"}/>
-        <input
-          id="volumeControl"
-          type="range"
-          min="0"
-          max="1"
-          step="0.1"
-          value={volume}
-          onChange={handleVolumeChange}
-        />
+      <div className="vol_tim">
+        <div className="vloume_contr">
+          <HiOutlineSpeakerWave size={"30px"} />
+          <input
+            id="volumeControl"
+            type="range"
+            min="0"
+            max="1"
+            step="0.1"
+            value={volume}
+            onChange={handleVolumeChange}
+          />
+        </div>
+
+        <div className="timmer">
+          {secondsToMinutes(Math.floor(currentTime))}/
+          {selecteSong ? selecteSong.duration : "00.00"}
+        </div>
       </div>
     </div>
   );

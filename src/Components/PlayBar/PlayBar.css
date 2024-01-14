@@ -19,19 +19,19 @@
   transition: opacity 1s ease-in;
 }
 
-.timmer {
+.vol_tim {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
   position: absolute;
-  right: 180px;
-  bottom: 2px;
+  right: 10vw;
 }
 
-.vloume_contr{
-  position: absolute;
+.vloume_contr {
   display: flex;
   align-items: center;
   justify-content: center;
-  right: 270px;
-  bottom: 2px;
 }
 @media screen and (max-width: 800px) {
   .Bottom {
@@ -41,5 +41,8 @@
   .icons {
     position: relative;
     bottom: -45px;
+  }
+  .vloume_contr {
+    display: none;
   }
 }
