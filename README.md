@@ -14,6 +14,16 @@ Welcome to the Spotify Clone repository - a cutting-edge music streaming applica
 
 - **Stunning UI/UX:** Experience a visually stunning user interface with intuitive controls, sleek animations, and a design that mirrors the aesthetics of the original Spotify app.
 
+  # My Awesome Project
+
+Welcome to my awesome project! Here's a screenshot:
+
+![HomePage](https://github.com/KartikCodeVerse/Spotify_Clone/assets/128214174/9da79eeb-ce0d-473d-884e-00260aacddb0)
+
+![SongListPage](https://github.com/KartikCodeVerse/Spotify_Clone/assets/128214174/2bba1301-57b2-48fb-a66a-13c07e56464e)
+
+![PlayingSong](https://github.com/KartikCodeVerse/Spotify_Clone/assets/128214174/678d4bc6-1ef1-4df3-becd-fa87648b3508)
+
 ## Getting Started
 
 1. **Clone the repository:**
